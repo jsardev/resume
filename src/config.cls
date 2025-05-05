@@ -21,7 +21,7 @@
 %----------------------------------------------------------------------------------------
 
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesClass{developercv}[2025/02/24 Developer CV class v1.1]
+\ProvidesClass{config}[2025/02/24 Developer CV class v1.1]
 
 \DeclareOption*{\PassOptionsToClass{\CurrentOption}{extarticle}}
 \ProcessOptions\relax
@@ -32,15 +32,21 @@
 %  PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
 %----------------------------------------------------------------------------------------
 
+\pdfminorversion=5
+% \pdfcompresslevel=9
+% \pdfobjcompresslevel=3
+% \input{glyphtounicode}
+% \pdfgentounicode=1
+
 \setlength{\parindent}{0mm}
 
 \usepackage[hidelinks]{hyperref}
 
-\newcommand{\lorem}{Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a diam lectus. }
-
 \pagestyle{empty}
 
 \usepackage{moresize}
+
+\usepackage{ifthen}
 
 %----------------------------------------------------------------------------------------
 %  PAGE LAYOUT
@@ -95,7 +101,7 @@
 %----------------------------------------------------------------------------------------
 
 \newcommand{\cvsect}[2]{%
-  \vspace{\baselineskip}
+  \vspace{24pt}
   \colorbox{black}{\textcolor{white}{\MakeUppercase{\textbf{#1}}}}\hspace{6pt}\textcolor{gray}{#2}\\%
 }
 
@@ -121,12 +127,21 @@
   \begin{minipage}[t]{\linewidth}
     \textbf{#2}\hfill
     {\footnotesize \textbf{\textcolor{black}{#3}}}
-    \vspace{6pt}\\
+    \ifthenelse{\equal{#4}{}}{
+    }{
+      \vspace{6pt}\\
+    }
     #4
-    \vspace{6pt}\\
+    \ifthenelse{\equal{#5}{}}{
+    }{
+      \vspace{6pt}\\
+    }
     #5
+    \ifthenelse{\equal{#5}{}}{}{
+      \\\\
+    }
   \end{minipage}
-  \\\\
+  \\
 }
 
 \newcommand{\slashsep}{\hspace{3mm}/\hspace{3mm}}

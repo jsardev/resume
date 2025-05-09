@@ -56,8 +56,8 @@
 
 \geometry{
   paper=a4paper,
-  top=1.75cm,
-  bottom=1.75cm,
+  top=1.25cm,
+  bottom=1.25cm,
   left=2cm,
   right=2cm,
   headheight=0.75cm,
@@ -116,14 +116,16 @@
 \setlength{\tabcolsep}{0pt}
 
 \newenvironment{entrylist}{
-  \renewcommand*{\arraystretch}{1.5}
+  \renewcommand*{\arraystretch}{1.25}
   \begin{longtable}[H]{@{}p{0.2\textwidth}p{0.8\textwidth}@{}}
   }{
   \end{longtable}
 }
 
 \newcommand{\entry}[5]{
-  #1 &
+  \begin{minipage}[t]{\linewidth}
+    #1
+  \end{minipage} &
   \begin{minipage}[t]{\linewidth}
     \textbf{#2}\hfill
     {\footnotesize \textbf{\textcolor{black}{#3}}}
@@ -145,3 +147,7 @@
 }
 
 \newcommand{\slashsep}{\hspace{3mm}/\hspace{3mm}}
+
+\newcommand{\listitem}[1]{
+  \textbullet\hspace{2pt}#1
+}

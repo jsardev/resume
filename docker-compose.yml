@@ -1,6 +1,0 @@
-services:
-  resume:
-    build: .
-    volumes:
-      - ./:/usr/resume
-    command: sh ./build.sh

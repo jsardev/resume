@@ -8,5 +8,6 @@ default: build
 build:
     {{ cmd }} {{ input_file }}
 
-dev:
+dev: build
+    open ./.output/{{ output_file }}.pdf
     {{ cmd }} -w {{ input_file }}

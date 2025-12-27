@@ -11,6 +11,8 @@ cv:
       username: jsardev
     - network: LinkedIn
       username: jsardev
+    - network: X
+      username: jsardev
 
   sections:
     Introduction:
@@ -189,8 +191,24 @@ design:
       body: 8pt
   header:
     alignment: left
+    connections:
+      phone_number_format: international
+      hyperlink: true
+      show_icons: true
+      display_urls_instead_of_usernames: true
+      space_between_connections: "0.50cm"
+  entries:
+    summary:
+      space_above: "0.15cm"
+    highlights:
+      space_above: "0.15cm"
   section_titles:
     type: with_partial_line
+    space_above: "0.5cm"
+    space_below: "0.5cm"
+  links:
+    underline: false
+    show_external_link_icon: true
 
 locale:
   language: english

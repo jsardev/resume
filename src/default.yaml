@@ -92,7 +92,7 @@ cv:
 
       - company: "[Allegro](https://allegro.pl)"
         position: Software Engineer
-        start_date: 2017-05
+        start_date: 2017-04
         end_date: 2017-12
         location: Poznań, Poland
         highlights:
@@ -104,7 +104,7 @@ cv:
       - company: "[Allegro](https://allegro.pl)"
         position: Junior Software Engineer
         start_date: 2016-01
-        end_date: 2017-04
+        end_date: 2017-03
         location: Poznań, Poland
         highlights:
           - Independently worked on a complex application, actively solving problems and engaging in code reviews to enhance learning and independence.
@@ -144,20 +144,22 @@ cv:
           - Collaborated with the development team to improve test coverage and testing processes for the analytics platform.
 
     Skills:
-      - label: Frontend Frameworks & Libraries
-        details: React, Next.js, Angular, Astro, Razzle, Redux, MobX, NgRx, React Query, XState, React Router, React Aria, GSAP, Phaser
       - label: Languages & Core
-        details: TypeScript, JavaScript, Java, Kotlin, C#, PHP, Node.js
-      - label: Backend & APIs
-        details: Express, Koa, Fastify, Spring, Symfony, .NET, Contentstack, Strapi, Storyblok
+        details: TypeScript, JavaScript, Node.js, Java, Kotlin, C#, PHP
+      - label: Frontend
+        details: React, Next.js, Angular, Astro, Razzle, Redux, Redux Toolkit, RTK Query, Reselect, MobX, Zustand, Recoil, NgRx, Tanstack Query, Tanstack Router, XState, Phaser, Redux Form, React Hook Form
+      - label: Backend
+        details: Express, Koa, Fastify, Adonis, Spring, Symfony, .NET
+      - label: CMS
+        details: Sanity, Contentstack, Strapi, Storyblok, Contentful
       - label: Styling & UI
-        details: SCSS, Tailwind, UnoCSS, Storybook, Redux Form, Reselect
+        details: Tailwind, UnoCSS, SCSS, CSS Modules, Storybook, GSAP, React Aria, ShadCN
       - label: Testing
-        details: Selenium, Selenium Grid, JMeter, Cypress, Playwright, Gatling
+        details: Selenium, Selenium Grid, JMeter, Cypress, Playwright, Gatling, Vegeta, AB
       - label: DevOps, Cloud & Infrastructure
         details: Vercel, Google Cloud, Consul, Mesos, Marathon, GitHub Actions, GitLab Pipelines, Bamboo, GritQL, Hermes, Elasticsearch, Kafka, Redis
       - label: Tools & Utilities
-        details: Nx, Ramda, Stripe, ClickUp, Jira, Confluence, Notion, Trello, Redmine
+        details: Nx, Ramda, Turbopack, ClickUp, Jira, Confluence, Notion, Trello, Redmine
 
     Education:
       - institution: Wyższa Szkoła Bankowa

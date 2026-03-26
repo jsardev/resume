@@ -6,6 +6,7 @@ default: build
 
 build profile="swe":
     {{ cmd }} ./src/{{ profile }}.yaml
+    open ./.output
 
 dev profile="swe":
     {{ cmd }} ./src/{{ profile }}.yaml

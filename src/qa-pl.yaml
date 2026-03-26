@@ -1,0 +1,248 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/rendercv/rendercv/refs/tags/v2.8/schema.json
+
+cv:
+  name: Jakub Sarnowski
+  location: Gniezno, Polska
+  email: hello@jsarnowski.com
+  phone: +48 785 748 506
+  website: https://jsarnowski.com
+  social_networks:
+    - network: GitHub
+      username: jsardev
+    - network: LinkedIn
+      username: jsardev
+    - network: X
+      username: jsardev
+
+  sections:
+    Wprowadzenie:
+      - Inżynier oprogramowania skoncentrowany na jakości, wracający do QA, łączący 10+ lat praktycznego doświadczenia inżynierskiego z wcześniejszą pracą w QA (testy manualne i automatyczne). Skutecznie przekładam wymagania produktowe na praktyczną strategię testów, odtwarzalne raporty błędów oraz ścisłą współpracę między zespołami, która poprawia niezawodność i doświadczenie użytkownika.
+
+    Doświadczenie:
+      - company: "[WAYF](https://wayfdigital.com)"
+        position: Starszy programista full-stack
+        start_date: 2025-07
+        end_date: 2025-10
+        location: Zdalnie
+        summary: Współtworzenie dużej platformy multi-tenant do tworzenia stron internetowych dla ponad 100 klientów.
+        highlights:
+          - Utrzymanie i poprawa niezawodności stron dzięki kompleksowym systemom monitoringu i procedurom.
+          - Tworzenie rozwiązań cache'ujących w celu zwiększenia wydajności i optymalizacji kosztów hostingu.
+
+      - company: "[Enixware](https://enixware.com)"
+        position: Starszy programista frontend
+        start_date: 2023-11
+        end_date: 2025-05
+        location: Zdalnie
+        summary: Praca nad dużą platformą webową dla gier, obsługującą tysiące jednoczesnych użytkowników.
+        highlights:
+          - Stworzenie interaktywnej gry przeglądarkowej opartej na Web3 oraz towarzyszącego landing page'a.
+          - Wdrożenie zautomatyzowanej transformacji kodu, skracając czas dużej migracji stylów z 4 tygodni do 1 tygodnia.
+
+      - company: "[Freelancing](https://jsarnowski.com)"
+        position: Inżynier oprogramowania
+        start_date: 2023-04
+        end_date: 2023-10
+        location: Zdalnie
+        summary: Praca nad platformą rządową do obsługi spraw administracyjnych obywateli.
+        highlights:
+          - Stworzenie biblioteki design systemu z komponentami wielokrotnego użytku, z naciskiem na wysoką dostępność zgodną z wytycznymi WCAG.
+          - Zbudowanie landing page'a z zaawansowanymi animacjami i interakcjami.
+
+      - company: "[ClickUp](https://clickup.com)"
+        position: Starszy inżynier frontend
+        start_date: 2022-07
+        end_date: 2023-03
+        location: Zdalnie
+        summary: Praca nad dużą aplikacją reaktywną, skoncentrowana na rozwoju zaawansowanych wykresów raportowych i wizualizacji danych.
+        highlights:
+          - Poprowadzenie inicjatywy zbierania danych o metrykach wydajności wizualizacji oraz ogólnym doświadczeniu użytkownika.
+
+      - company: "[Netguru](https://netguru.com)"
+        position: Starszy programista frontend
+        start_date: 2020-03
+        end_date: 2022-06
+        location: Zdalnie
+        highlights:
+          - Zaprojektowanie niestandardowego rozwiązania server-side rendering dla platformy e-commerce, poprawiając wynik Google Lighthouse o 70 punktów.
+          - Zbudowanie frontendu dla systemu wyceny ubezpieczeń domu z złożoną logiką obliczeń.
+          - "Udział w rekrutacji: prowadzenie rozmów technicznych oraz przekazywanie kandydatom szczegółowego feedbacku i wskazówek rozwojowych."
+
+      - company: ST-YL
+        position: Programista React
+        start_date: 2019-07
+        end_date: 2020-02
+        location: Zdalnie
+        highlights:
+          - Praca nad aplikacją e-commerce w branży odzieżowej.
+          - Poprawa wydajności poprzez identyfikację i usunięcie problemów z ładowaniem, co dało 50% poprawę LCP.
+          - Wdrożenie wyszukiwania i filtrowania oraz zaawansowanej analityki.
+          - Dostosowanie CMS dla zespołu marketingu, aby łatwo uruchamiał kampanie; integracja ze sklepem dla dynamicznych treści.
+
+      - company: "[Freelancing](https://jsarnowski.com)"
+        position: Inżynier oprogramowania
+        start_date: 2018-01
+        end_date: 2019-06
+        location: Zdalnie
+        highlights:
+          - Stworzenie identyfikacji marki i rozwiązań software'owych dla trenera personalnego, obejmując cały stack technologiczny oraz infrastrukturę wdrożeniową.
+          - Ścisła współpraca z klientem w celu dopasowania możliwości systemu do wizji marki.
+          - Wdrożenie bezpiecznych płatności oraz systemu zarządzania subskrypcjami.
+          - Zwiększenie konwersji o 20% dzięki dedykowanemu, ręcznie kodowanemu landing page'owi.
+
+      - company: "[Allegro](https://allegro.pl)"
+        position: Inżynier oprogramowania
+        start_date: 2017-04
+        end_date: 2017-12
+        location: Poznań, Polska
+        highlights:
+          - Tworzenie aplikacji i mikroserwisów na dużą skalę w rozproszonej infrastrukturze, z elementami orkiestracji i DevOps.
+          - Udział w projektowaniu i planowaniu produktu, w tym omawianie wymagań oraz tworzenie roadmap.
+          - Efektywna współpraca w zespole w metodyce SCRUM oraz mentoring młodszych programistów.
+          - Utrzymywanie i usprawnianie przestarzałych systemów, optymalizacja zużycia zasobów.
+
+      - company: "[Allegro](https://allegro.pl)"
+        position: Młodszy inżynier oprogramowania
+        start_date: 2016-01
+        end_date: 2017-03
+        location: Poznań, Polska
+        highlights:
+          - Samodzielna praca nad złożoną aplikacją; aktywne rozwiązywanie problemów i udział w code review w celu zwiększania samodzielności.
+          - Dzielenie się wiedzą w zespole poprzez szkolenie przyszłych inżynierów oprogramowania oraz wnoszenie perspektywy test engineering.
+
+      - company: "[Allegro](https://allegro.pl)"
+        position: Młodszy inżynier QA
+        start_date: 2015-01
+        end_date: 2015-12
+        location: Poznań, Polska
+        highlights:
+          - Tworzenie testów automatycznych dla infrastruktury opartej na mikroserwisach, w tym testów wieloprzeglądarkowych oraz zadań harmonogramowanych w CI.
+          - Proponowanie nowych technologii usprawniających doświadczenie deweloperów oraz działania wzmacniające fokus firmy na jakości produktu.
+          - Tworzenie jasnych, odtwarzalnych raportów błędów z dokładnymi krokami reprodukcji oraz przygotowywanie środowisk testowych.
+
+      - company: "[mTab](https://mtab.com)"
+        position: Młodszy programista .NET
+        start_date: 2015-01
+        end_date: 2016-02
+        location: Poznań, Polska
+        summary: Zbudowanie od zera wewnętrznej, scentralizowanej platformy logowania, aby monitorować użycie systemu i zwiększać produktywność deweloperów.
+        highlights:
+          - Zaprojektowanie i stworzenie kompletnego rozwiązania logowania (Angular, .NET Web API, Elasticsearch), umożliwiającego monitoring logów i błędów w czasie rzeczywistym dla setek użytkowników.
+          - Wdrożenie śledzenia aktywności użytkowników i logowania błędów, znacząco skracając czas diagnozy oraz pomagając deweloperom szybciej identyfikować i rozwiązywać problemy.
+          - Stworzenie samodzielnie hostowanej platformy monitoringu jako alternatywy dla Sentry, dającej zespołowi pełną kontrolę nad danymi i możliwościami wyszukiwania.
+
+      - company: "[mTab](https://mtab.com)"
+        position: Inżynier QA
+        start_date: 2013-10
+        end_date: 2014-12
+        location: Poznań, Polska
+        summary: Zapewnienie jakości oprogramowania analitycznego dla branży automotive poprzez kompleksowe testy manualne i automatyczne.
+        highlights:
+          - Weryfikacja poprawności danych w złożonych wykresach i wizualizacjach analitycznych dla danych sprzedażowych w branży automotive, zapewniając klientom wiarygodne BI.
+          - Tworzenie zestawów testów automatycznych w C# i Selenium dla krytycznych przepływów użytkownika; dokumentowanie przypadków testowych wspierających regresję i zapobieganie problemom z integralnością danych.
+          - Identyfikowanie i raportowanie krytycznych błędów w testach manualnych; śledzenie zgłoszeń w Redmine w celu utrzymania wysokiej jakości produktu i wiarygodności danych.
+          - Współpraca z zespołem deweloperskim nad poprawą pokrycia testami i procesów testowania platformy analitycznej.
+
+    Umiejętności:
+      - label: Języki
+        details: TypeScript, JavaScript, Node.js, Java, Kotlin, C#, PHP
+      - label: Frontend
+        details: React, Next.js, Angular, Astro, Razzle, Redux, Redux Toolkit, RTK Query, Reselect, MobX, Zustand, Recoil, NgRx, Tanstack Query, Tanstack Router, XState, Phaser, Redux Form, React Hook Form
+      - label: Backend
+        details: Express, Koa, Fastify, Adonis, Spring, Symfony, .NET
+      - label: CMS
+        details: Sanity, Contentstack, Strapi, Storyblok, Contentful
+      - label: Interfejs użytkownika
+        details: Tailwind, UnoCSS, SCSS, CSS Modules, Storybook, GSAP, React Aria, ShadCN
+      - label: Testowanie
+        details: Selenium, Selenium Grid, JMeter, Cypress, Playwright, Gatling, Vegeta, AB
+      - label: DevOps, chmura i infrastruktura
+        details: Vercel, Google Cloud, Consul, Mesos, Marathon, GitHub Actions, GitLab Pipelines, Bamboo, GritQL, Hermes, Elasticsearch, Kafka, Redis
+      - label: Narzędzia i biblioteki
+        details: Nx, Ramda, Turbopack, ClickUp, Jira, Confluence, Notion, Trello, Redmine
+
+    Wykształcenie:
+      - institution: Wyższa Szkoła Bankowa
+        degree: BS
+        area: Inżynieria oprogramowania
+        start_date: 2013
+        end_date: 2014
+        summary: Realizowałem studia z zakresu inżynierii oprogramowania, koncentrując się na zasadach projektowania, wytwarzania i utrzymywania efektywnych systemów. Po roku przerwałem program, aby zdobyć bardziej praktyczne, hands-on doświadczenie w firmie software'owej.
+
+    Języki:
+      - label: Polish
+        details: ojczysty
+      - label: English
+        details: zaawansowany
+      - label: German
+        details: podstawowy
+
+    Wolontariat:
+      - "[Devoxx4Kids](https://www.devoxx4kids.org/): nauczanie dzieci podstaw programowania w Scratch, prowadzenie interaktywnych warsztatów i zajęć praktycznych, które sprawiały, że kodowanie było dostępne i angażujące."
+
+design:
+  theme: classic
+  page:
+    show_footer: true
+  colors:
+    name: rgb(0, 0, 0)
+    section_titles: rgb(0, 0, 0)
+  typography:
+    font_family: DejaVu Sans Mono
+    font_size:
+      body: 8pt
+  header:
+    alignment: left
+    connections:
+      phone_number_format: international
+      hyperlink: true
+      show_icons: true
+      display_urls_instead_of_usernames: true
+      space_between_connections: "0.50cm"
+  entries:
+    summary:
+      space_above: "0.15cm"
+    highlights:
+      space_above: "0.15cm"
+  section_titles:
+    type: with_partial_line
+    space_above: "0.5cm"
+    space_below: "0.5cm"
+  links:
+    underline: false
+    show_external_link_icon: true
+
+locale:
+  language: english
+  last_updated: Ostatnia aktualizacja
+  month: mies.
+  months: mies.
+  year: l.
+  years: l.
+  present: obecnie
+  month_abbreviations:
+    - sty
+    - lut
+    - mar
+    - kwi
+    - maj
+    - cze
+    - lip
+    - sie
+    - wrz
+    - paź
+    - lis
+    - gru
+  month_names:
+    - styczeń
+    - luty
+    - marzec
+    - kwiecień
+    - maj
+    - czerwiec
+    - lipiec
+    - sierpień
+    - wrzesień
+    - październik
+    - listopad
+    - grudzień

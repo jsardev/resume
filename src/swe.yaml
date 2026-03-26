@@ -1,4 +1,4 @@
-# yaml-language-server: $schema=https://raw.githubusercontent.com/rendercv/rendercv/refs/tags/v2.6/schema.json
+# yaml-language-server: $schema=https://raw.githubusercontent.com/rendercv/rendercv/refs/tags/v2.8/schema.json
 
 cv:
   name: Jakub Sarnowski
@@ -214,8 +214,3 @@ design:
 
 locale:
   language: english
-
-rendercv_settings:
-  current_date: "2025-12-26"
-  render_command:
-    pdf_path: rendercv_output/Jakub_Sarnowski_CV.pdf

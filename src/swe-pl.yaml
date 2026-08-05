@@ -1,0 +1,208 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/rendercv/rendercv/refs/tags/v2.8/schema.json
+
+cv:
+  name: Jakub Sarnowski
+  location: Gniezno, Polska
+  email: hello@jsarnowski.com
+  phone: +48 785 748 506
+  website: https://jsarnowski.com
+  social_networks:
+    - network: GitHub
+      username: jsardev
+    - network: LinkedIn
+      username: jsardev
+    - network: X
+      username: jsardev
+
+  sections:
+    Wprowadzenie:
+      - Doświadczony inżynier oprogramowania, który tworzy rozwiązania atrakcyjne wizualnie, intuicyjne, szybkie i poprawiające doświadczenie użytkownika. Ceniony za współpracę zespołową oraz zaangażowanie w realizację celów zespołu i produktu. Łączę silne umiejętności techniczne z dobrym zrozumieniem potrzeb biznesowych i celów rozwijanych produktów.
+
+    Doświadczenie:
+      - company: Przerwa zawodowa
+        position: ""
+        start_date: 2025-11
+        end_date: present
+        summary: Przerwa zawodowa na odpoczynek i powrót do zdrowia po problemach zdrowotnych.
+
+      - company: "[Enixware](https://enixware.com)"
+        position: Starszy inżynier frontend
+        start_date: 2023-11
+        end_date: 2025-10
+        location: Zdalnie
+        summary: Praca nad dużą platformą webową dla gier, obsługującą tysiące jednoczesnych użytkowników.
+        highlights:
+          - Stworzenie interaktywnej gry przeglądarkowej opartej na Web3 oraz towarzyszącego landing page'a.
+          - Wdrożenie zautomatyzowanej transformacji kodu, skracając czas dużej migracji stylów z 4 tygodni do 1 tygodnia.
+          - "**Technologie:** TypeScript, React, Astro, React Router, React Query, XState, Phaser, Tailwind, GritQL, GitHub Actions"
+
+      - company: Freelancing
+        position: Inżynier oprogramowania
+        start_date: 2023-04
+        end_date: 2023-10
+        location: Zdalnie
+        summary: Praca nad platformą rządową do obsługi spraw administracyjnych obywateli.
+        highlights:
+          - Stworzenie biblioteki design systemu z komponentami wielokrotnego użytku, z naciskiem na wysoką dostępność zgodną z wytycznymi WCAG.
+          - Zbudowanie landing page'a z zaawansowanymi animacjami i interakcjami.
+          - "**Technologie:** TypeScript, React, GSAP, React Aria, Storybook, Tailwind, UnoCSS, GitLab Pipelines"
+
+      - company: "[ClickUp](https://clickup.com)"
+        position: Starszy inżynier frontend
+        start_date: 2022-07
+        end_date: 2023-03
+        location: Zdalnie
+        summary: Odpowiadałem za przebudowę UX modułu dashboardu w dużej aplikacji reaktywnej.
+        highlights:
+          - Przeprojektowanie przepływów i interakcji dashboardu w celu stworzenia prostszego i bardziej efektywnego doświadczenia użytkownika.
+          - Zdefiniowanie i pomiar metryk doświadczenia użytkownika oraz wydajności za pomocą Amplitude w celu oceny wpływu zmian.
+          - "**Technologie:** TypeScript, Angular, NgRx, RxJS, Nx, Amplitude"
+
+      - company: "[Netguru](https://netguru.com)"
+        position: Starszy inżynier frontend
+        start_date: 2020-03
+        end_date: 2022-06
+        location: Zdalnie
+        highlights:
+          - Zaprojektowanie niestandardowego rozwiązania server-side rendering dla platformy e-commerce, poprawiając wynik Google Lighthouse o 70 punktów.
+          - Zbudowanie frontendu dla systemu wyceny ubezpieczeń domu z złożoną logiką obliczeń.
+          - "Udział w rekrutacji: prowadzenie rozmów technicznych oraz przekazywanie kandydatom szczegółowego feedbacku i wskazówek rozwojowych."
+          - "**Technologie:** TypeScript, Node.js, React, Next.js, Razzle, Redux, MobX, Storyblok, Google Cloud"
+
+      - company: ST-YL
+        position: Inżynier frontend
+        start_date: 2019-07
+        end_date: 2020-02
+        location: Zdalnie
+        highlights:
+          - Praca nad aplikacją e-commerce w branży odzieżowej.
+          - Poprawa wydajności poprzez identyfikację i usunięcie problemów z ładowaniem, co dało 50% poprawę LCP.
+          - Wdrożenie wyszukiwania i filtrowania oraz zaawansowanej analityki.
+          - Dostosowanie CMS dla zespołu marketingu, aby łatwo uruchamiał kampanie; integracja ze sklepem dla dynamicznych treści.
+          - "**Technologie:** TypeScript, React, Next.js, Redux, Redux Form, Reselect, Strapi"
+
+      - company: Freelancing
+        position: Inżynier oprogramowania
+        start_date: 2018-01
+        end_date: 2019-06
+        location: Zdalnie
+        highlights:
+          - Stworzenie identyfikacji marki i rozwiązań software'owych dla trenera personalnego, obejmując cały stack technologiczny oraz infrastrukturę wdrożeniową.
+          - Ścisła współpraca z klientem w celu dopasowania możliwości systemu do wizji marki.
+          - Wdrożenie bezpiecznych płatności oraz systemu zarządzania subskrypcjami.
+          - Zwiększenie konwersji o 20% dzięki dedykowanemu, ręcznie kodowanemu landing page'owi.
+          - "**Technologie:** JavaScript, Next.js, React, Fastify, Ramda, Stripe, GitHub Actions"
+
+      - company: "[Allegro](https://allegro.pl)"
+        position: Inżynier oprogramowania
+        start_date: 2017-04
+        end_date: 2017-12
+        location: Poznań, Polska
+        highlights:
+          - Tworzenie aplikacji i mikroserwisów na dużą skalę w rozproszonej infrastrukturze, z elementami orkiestracji i DevOps.
+          - Udział w projektowaniu i planowaniu produktu, w tym omawianie wymagań oraz tworzenie roadmap.
+          - Efektywna współpraca w zespole w metodyce SCRUM oraz mentoring młodszych inżynierów.
+          - Utrzymywanie i usprawnianie przestarzałych systemów, optymalizacja zużycia zasobów.
+          - "**Technologie:** JavaScript, React, Redux, Node.js, Koa, Express, Java, Kotlin, Spring, PHP, Symfony, Kafka, Consul, Mesos, Marathon"
+
+      - company: "[Allegro](https://allegro.pl)"
+        position: Młodszy inżynier oprogramowania
+        start_date: 2016-01
+        end_date: 2017-03
+        location: Poznań, Polska
+        highlights:
+          - Samodzielna praca nad złożoną aplikacją; aktywne rozwiązywanie problemów i udział w code review w celu zwiększania samodzielności.
+          - Dzielenie się wiedzą w zespole poprzez szkolenie przyszłych inżynierów oprogramowania oraz wnoszenie perspektywy test engineering.
+          - "**Technologie:** JavaScript, React, Redux, Java, Spring, Bamboo"
+
+      - company: "[Allegro](https://allegro.pl)"
+        position: Młodszy inżynier QA
+        start_date: 2015-01
+        end_date: 2015-12
+        location: Poznań, Polska
+
+      - company: "[mTab](https://mtab.com)"
+        position: Inżynier QA
+        start_date: 2013-10
+        end_date: 2014-12
+        location: Poznań, Polska
+
+    Języki:
+      - label: Polski
+        details: ojczysty
+      - label: Angielski
+        details: zaawansowany
+      - label: Niemiecki
+        details: podstawowy
+
+design:
+  theme: classic
+  page:
+    show_footer: true
+  colors:
+    name: rgb(0, 0, 0)
+    section_titles: rgb(0, 0, 0)
+  typography:
+    font_family: DejaVu Sans Mono
+    font_size:
+      body: 8pt
+  header:
+    alignment: left
+    connections:
+      phone_number_format: international
+      hyperlink: true
+      show_icons: true
+      display_urls_instead_of_usernames: true
+      space_between_connections: "0.50cm"
+  entries:
+    summary:
+      space_above: "0.15cm"
+    highlights:
+      space_above: "0.15cm"
+  section_titles:
+    type: with_partial_line
+    space_above: "0.5cm"
+    space_below: "0.5cm"
+  links:
+    underline: false
+    show_external_link_icon: true
+  templates:
+    footer: |-
+      Wyrażam zgodę na przetwarzanie moich danych osobowych zawartych w niniejszym CV przez potencjalnego pracodawcę
+      #linebreak()
+      w celu przeprowadzenia rekrutacji, zgodnie z Rozporządzeniem Parlamentu Europejskiego i Rady (UE) 2016/679 (RODO).
+
+locale:
+  language: english
+  last_updated: Ostatnia aktualizacja
+  month: mies.
+  months: mies.
+  year: r.
+  years: lata
+  present: obecnie
+  month_abbreviations:
+    - sty
+    - lut
+    - mar
+    - kwi
+    - maj
+    - cze
+    - lip
+    - sie
+    - wrz
+    - paź
+    - lis
+    - gru
+  month_names:
+    - styczeń
+    - luty
+    - marzec
+    - kwiecień
+    - maj
+    - czerwiec
+    - lipiec
+    - sierpień
+    - wrzesień
+    - październik
+    - listopad
+    - grudzień

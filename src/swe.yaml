@@ -2,6 +2,7 @@
 
 cv:
   name: Jakub Sarnowski
+  headline: Senior Frontend Engineer
   location: Gniezno, Poland
   email: hello@jsarnowski.com
   phone: +48 785 748 506
@@ -15,105 +16,93 @@ cv:
       username: jsardev
 
   sections:
-    Introduction:
-      - Experienced engineer passionate about software that is visually appealing, intuitive, fast, and enhances user experience. Known for being a great teammate and collaborator, with a commitment to the team and mission. Possess strong technical skills, coupled with a deep understanding of business needs and goals of the products being developed.
+    Summary:
+      - Senior Frontend Engineer with 10+ years of experience building complex product interfaces in React and TypeScript. Specializes in frontend architecture, design systems, accessibility, and web performance — backed by substantial hands-on backend and infrastructure experience, including building backend services in Node.js and Java/Kotlin and deploying and operating systems with Kubernetes, cloud platforms, and CI/CD pipelines. Works across the whole product lifecycle — from UX problem-solving and technical discovery to delivery and developer experience.
 
     Experience:
-      - company: Sabbatical Leave
+      - company: Career Break
         position: ""
         start_date: 2025-11
         end_date: present
-        summary: Career break for rest and recovery following health issues.
+        summary: Career break for rest and recovery.
 
       - company: "[Enixware](https://enixware.com)"
         position: Senior Frontend Engineer
-        start_date: 2023-11
+        start_date: 2024-06
         end_date: 2025-10
         location: Remote
         summary: Worked on a large-scale web gaming platform serving thousands of concurrent users.
         highlights:
-          - Developed an interactive Web3-based browser game and its accompanying landing page.
-          - Implemented an automated codebase transformation solution, reducing the development time for a large-scale styling migration from 4 weeks to just 1 week.
+          - Built game systems and player-facing UI for a Web3 browser game, collaborating with product, game, and blockchain engineers.
+          - Integrated the game with the Web3 and Telegram ecosystem, including wallets and in-app flows.
+          - Developed the accompanying marketing landing page.
+          - Built an automated styling-migration tool with GritQL, turning a large-scale codebase migration into a repeatable process with edge-case handling.
           - "**Technologies:** TypeScript, React, Astro, React Router, React Query, XState, Phaser, Tailwind, GritQL, GitHub Actions"
 
-      - company: "[Freelancing](https://jsarnowski.com)"
-        position: Software Engineer
+      - company: "[Flying Bisons](https://flyingbisons.com)"
+        position: Senior Frontend Engineer
         start_date: 2023-04
-        end_date: 2023-10
+        end_date: 2024-05
         location: Remote
         summary: Worked on a governmental platform for managing citizen-related administrative matters.
         highlights:
-          - Created a comprehensive design system library with reusable components, focusing on high accessibility standards following the WCAG guidelines.
+          - Built accessible, reusable components for a design system aligned with WCAG requirements, documented in Storybook with supporting tests.
+          - Rewrote date-based components, such as the date picker, to work correctly across timezones and non-Gregorian calendars, including Hijri.
           - Developed a landing page featuring complex animations and interactions.
           - "**Technologies:** TypeScript, React, GSAP, React Aria, Storybook, Tailwind, UnoCSS, GitLab Pipelines"
 
       - company: "[ClickUp](https://clickup.com)"
         position: Senior Frontend Engineer
-        start_date: 2022-07
+        start_date: 2022-02
         end_date: 2023-03
         location: Remote
-        summary: Owned the UX rework of the dashboard module in a large-scale reactive application.
+        summary: Reworked the UX of the dashboard module in a large-scale reactive application, in close collaboration with product and design.
         highlights:
-          - Redesigned dashboard workflows and interactions to create a clearer and more effective user experience.
-          - Defined and measured user experience and performance metrics with Amplitude to evaluate the impact of the changes.
+          - Redesigned and implemented dashboard workflows and interactions, creating a clearer user experience.
+          - Reduced technical debt in the new version of dashboards, improving the maintainability, reliability, and developer experience of dashboard charts.
+          - Instrumented user experience and performance metrics with Amplitude to evaluate changes and guide iterations.
           - "**Technologies:** TypeScript, Angular, NgRx, RxJS, Nx, Amplitude"
 
       - company: "[Netguru](https://netguru.com)"
         position: Senior Frontend Engineer
         start_date: 2020-03
-        end_date: 2022-06
+        end_date: 2022-01
         location: Remote
+        summary: Delivered frontend solutions for client products in e-commerce and insurance.
         highlights:
-          - Engineered a custom server-side rendering solution for an e-commerce platform, improving the Google Lighthouse performance score by 70 points.
-          - Built the frontend for a home insurance quoting system with complex calculation logic.
-          - Participated in the recruitment process by conducting technical interviews and providing candidates with detailed feedback and growth suggestions.
+          - Designed and implemented a custom server-side rendering solution for an e-commerce platform, from the Node.js rendering pipeline to a Kubernetes-based deployment.
+          - Built the frontend for a home insurance quoting system with dependent multi-step forms, complex validation, and external API integrations.
+          - Contributed to technical discovery, client communication, and frontend architecture decisions; conducted technical interviews with candidates.
           - "**Technologies:** TypeScript, Node.js, React, Next.js, Razzle, Redux, MobX, Storyblok, Google Cloud"
 
-      - company: ST-YL
-        position: Frontend Engineer
-        start_date: 2019-07
-        end_date: 2020-02
-        location: Remote
-        highlights:
-          - Worked on an e-commerce web application in the clothing industry.
-          - Enhanced performance by identifying and resolving loading issues, resulting in a 50% improvement in LCP.
-          - Implemented search and filtering capabilities, along with advanced analytics.
-          - Customized a CMS for the marketing team to easily launch campaigns, integrating it with the storefront for dynamic content.
-          - "**Technologies:** TypeScript, React, Next.js, Redux, Redux Form, Reselect, Strapi"
-
-      - company: "[Freelancing](https://jsarnowski.com)"
+      - company: "[Freelance](https://jsarnowski.com)"
         position: Software Engineer
         start_date: 2018-01
-        end_date: 2019-06
+        end_date: 2020-02
         location: Remote
+        summary: Delivered software development services for individual clients.
         highlights:
-          - Developed brand identity and software solutions for a personal trainer, managing the full technology stack and deployment infrastructure.
-          - Collaborated closely with the client to ensure software capabilities aligned with the brand's vision.
-          - Implemented secure payment processing and a subscription management system.
-          - Improved the client's conversion rate by 20% through a custom-coded landing page.
-          - "**Technologies:** JavaScript, Next.js, React, Fastify, Ramda, Stripe, GitHub Actions"
+          - Delivered an end-to-end product for a personal trainer, spanning brand identity, a customer-facing web application, and a marketing landing page.
+          - Built frontend features for an e-commerce application in the clothing industry.
+          - Implemented secure payment processing and subscription management with Stripe.
+          - Investigated and resolved loading performance issues across the storefront.
+          - Implemented search and filtering capabilities, along with product analytics.
+          - Extended a Strapi CMS with custom logic, enabling the marketing team to launch campaigns and manage dynamic storefront content.
+          - Managed the full technology stack, deployment, and infrastructure, collaborating with the client on product decisions.
+          - "**Technologies:** TypeScript, JavaScript, React, Next.js, Redux, Redux Form, Reselect, Strapi, Fastify, Ramda, Stripe, GitHub Actions"
 
       - company: "[Allegro](https://allegro.pl)"
         position: Software Engineer
-        start_date: 2017-04
+        start_date: 2016-01
         end_date: 2017-12
         location: Poznań, Poland
+        summary: Worked on the seller domain — offer creation and display — in a large-scale distributed marketplace platform; joined as a Junior Software Engineer after transitioning from QA and was promoted to Software Engineer.
         highlights:
-          - Built large-scale applications and microservices in a distributed infrastructure, handling orchestration and DevOps aspects.
-          - Engaged in product design and planning, including discussing requirements and creating roadmaps.
-          - Collaborated effectively within the team following SCRUM methodology and provided mentorship to junior engineers.
-          - Maintained and improved outdated systems, optimizing resource usage.
-          - "**Technologies:** JavaScript, React, Redux, Node.js, Koa, Express, Java, Kotlin, Spring, PHP, Symfony, Kafka, Consul, Mesos, Marathon"
-
-      - company: "[Allegro](https://allegro.pl)"
-        position: Junior Software Engineer
-        start_date: 2016-01
-        end_date: 2017-03
-        location: Poznań, Poland
-        highlights:
-          - Independently worked on a complex application, actively solving problems and engaging in code reviews to enhance learning and independence.
-          - Shared knowledge with team members by teaching aspiring Software Engineers and offering test engineering insights.
-          - "**Technologies:** JavaScript, React, Redux, Java, Spring, Bamboo"
+          - Built frontend applications and backend services across the offer creation and display flows.
+          - Worked on distributed microservices, including messaging, service orchestration, and deployment with Mesos, Marathon, and Consul.
+          - Applied QA experience to implementation quality through testing and code reviews; contributed to product design and planning; mentored junior engineers.
+          - Maintained and modernized legacy systems.
+          - "**Technologies:** JavaScript, React, Redux, Node.js, Koa, Express, Java, Kotlin, Spring, PHP, Symfony, Kafka, Consul, Mesos, Marathon, Bamboo"
 
       - company: "[Allegro](https://allegro.pl)"
         position: Junior QA Engineer

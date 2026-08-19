@@ -17,14 +17,17 @@ cv:
 
   sections:
     Summary:
-      - Senior Frontend Engineer with 10+ years of experience building complex product interfaces in React and TypeScript. Specializes in frontend architecture, design systems, accessibility, and web performance — backed by substantial hands-on backend and infrastructure experience, including building backend services in Node.js and Java/Kotlin and deploying and operating systems with Kubernetes, cloud platforms, and CI/CD pipelines. Works across the whole product lifecycle — from UX problem-solving and technical discovery to delivery and developer experience.
+      - Senior Frontend Engineer with 10+ years of experience building complex product interfaces in React and TypeScript, specializing in frontend architecture, design systems, accessibility, and web performance. Hands-on beyond the frontend — Node.js services, Kubernetes deployments, CI/CD — and across the whole product lifecycle, from UX problem-solving and technical discovery to delivery and developer experience.
 
     Experience:
-      - company: Career Break
+      - company: Sabbatical
         position: ""
         start_date: 2025-11
         end_date: present
-        summary: Career break for rest and recovery.
+        summary: Sabbatical focused on learning and personal projects.
+        highlights:
+          - Built a small e-commerce website with a blog, payment processing, and newsletter integrations to learn PayloadCMS.
+          - "**Technologies:** PayloadCMS, Stripe, Notifuse, Hetzner, GitHub Actions"
 
       - company: "[Enixware](https://enixware.com)"
         position: Senior Frontend Engineer
@@ -83,10 +86,8 @@ cv:
         summary: Delivered software development services for individual clients.
         highlights:
           - Delivered an end-to-end product for a personal trainer, spanning brand identity, a customer-facing web application, and a marketing landing page.
-          - Built frontend features for an e-commerce application in the clothing industry.
-          - Implemented secure payment processing and subscription management with Stripe.
-          - Investigated and resolved loading performance issues across the storefront.
-          - Implemented search and filtering capabilities, along with product analytics.
+          - Built frontend features for an e-commerce application in the clothing industry, including secure payment processing and subscription management with Stripe.
+          - "Improved the storefront: resolved loading performance issues, implemented search and filtering, and added product analytics."
           - Extended a Strapi CMS with custom logic, enabling the marketing team to launch campaigns and manage dynamic storefront content.
           - Managed the full technology stack, deployment, and infrastructure, collaborating with the client on product decisions.
           - "**Technologies:** TypeScript, JavaScript, React, Next.js, Redux, Redux Form, Reselect, Strapi, Fastify, Ramda, Stripe, GitHub Actions"

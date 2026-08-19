@@ -1,0 +1,198 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/rendercv/rendercv/refs/tags/v2.8/schema.json
+
+cv:
+  name: Jakub Sarnowski
+  headline: Senior Frontend Engineer
+  location: Gniezno
+  email: hello@jsarnowski.com
+  phone: +48 785 748 506
+  website: https://jsarnowski.com
+  social_networks:
+    - network: GitHub
+      username: jsardev
+    - network: LinkedIn
+      username: jsardev
+    - network: X
+      username: jsardev
+
+  sections:
+    Podsumowanie:
+      - Senior Frontend Engineer z ponad 10-letnim doświadczeniem w budowaniu złożonych interfejsów produktowych w React i TypeScript, specjalizujący się w architekturze frontendu, design systemach, dostępności i wydajności aplikacji webowych. Doświadczenie również poza frontendem — usługi Node.js, wdrożenia na Kubernetes, CI/CD — oraz w całym cyklu życia produktu, od rozwiązywania problemów UX i analizy technicznej po dostarczanie i developer experience.
+
+    Doświadczenie zawodowe:
+      - company: Przerwa zawodowa
+        position: ""
+        start_date: 2025-11
+        end_date: present
+        summary: Urlop typu sabbatical poświęcony nauce i projektom osobistym.
+        highlights:
+          - Zbudowałem serwis e-commerce z blogiem, obsługą płatności i integracjami newslettera, aby poznać PayloadCMS.
+          - "**Technologie:** TypeScript, PayloadCMS, Stripe, Notifuse, Hetzner, GitHub Actions"
+
+      - company: "[Enixware](https://enixware.com)"
+        position: Senior Frontend Engineer
+        start_date: 2024-06
+        end_date: 2025-10
+        location: Zdalnie
+        summary: Praca nad rozbudowaną platformą gier webowych, obsługującą tysiące jednocześnie połączonych użytkowników.
+        highlights:
+          - Tworzyłem interfejs gracza dla przeglądarkowej gry Web3, integrując ją z portfelami kryptowalutowymi i ekosystemem Telegrama.
+          - Opracowałem towarzyszącą stronę marketingową (landing page).
+          - Zbudowałem zautomatyzowane narzędzie do migracji stylowania oparte na GritQL, zamieniając migrację dużej bazy kodu w powtarzalny proces z obsługą przypadków brzegowych.
+          - "**Technologie:** TypeScript, React, Astro, React Router, React Query, XState, Phaser, Tailwind, GritQL, GitHub Actions"
+
+      - company: "[Flying Bisons](https://flyingbisons.com)"
+        position: Senior Frontend Engineer
+        start_date: 2023-04
+        end_date: 2024-05
+        location: Zdalnie
+        summary: Praca nad platformą rządową do zarządzania sprawami administracyjnymi obywateli.
+        highlights:
+          - Tworzyłem dostępne, wielokrotnego użytku komponenty design systemu zgodne z wymaganiami WCAG, udokumentowane w Storybook wraz z testami.
+          - Przepisałem komponenty oparte na datach, takie jak date picker, aby działały poprawnie w różnych strefach czasowych i kalendarzach niegregoriańskich, w tym hijryjskim.
+          - Opracowałem landing page ze złożonymi animacjami i interakcjami.
+          - "**Technologie:** TypeScript, React, GSAP, React Aria, Storybook, Tailwind, UnoCSS, GitLab Pipelines"
+
+      - company: "[ClickUp](https://clickup.com)"
+        position: Senior Frontend Engineer
+        start_date: 2022-02
+        end_date: 2023-03
+        location: Zdalnie
+        summary: Przeprojektowanie UX modułu dashboardów w dużej aplikacji reaktywnej, w ścisłej współpracy z zespołami produktu i designu.
+        highlights:
+          - Przeprojektowałem i zaimplementowałem przepływy pracy i interakcje dashboardów, tworząc czytelniejsze doświadczenie użytkownika.
+          - Ograniczyłem dług techniczny w nowej wersji dashboardów, poprawiając utrzymywalność, niezawodność i komfort pracy deweloperów z wykresami.
+          - Wdrożyłem pomiar metryk doświadczenia użytkownika i wydajności za pomocą Amplitude, aby oceniać zmiany i kierować iteracje.
+          - "**Technologie:** TypeScript, Angular, NgRx, RxJS, Nx, Amplitude"
+
+      - company: "[Netguru](https://netguru.com)"
+        position: Senior Frontend Engineer
+        start_date: 2020-03
+        end_date: 2022-01
+        location: Zdalnie
+        summary: Dostarczanie rozwiązań frontendowych dla produktów klientów z branż e-commerce i ubezpieczeń.
+        highlights:
+          - Zaprojektowałem i zaimplementowałem autorskie rozwiązanie server-side rendering dla platformy e-commerce — od pipeline'u renderowania w Node.js po wdrożenie na Kubernetes.
+          - Zbudowałem frontend systemu wyceny ubezpieczeń domowych z zależnymi formularzami wieloetapowymi, złożoną walidacją i integracjami z zewnętrznymi API.
+          - Uczestniczyłem w analizie technicznej, komunikacji z klientem i decyzjach dotyczących architektury frontendu; przeprowadzałem rozmowy techniczne z kandydatami.
+          - "**Technologie:** TypeScript, Node.js, React, Next.js, Razzle, Redux, MobX, Storyblok, Google Cloud"
+
+      - company: "[Freelance](https://jsarnowski.com)"
+        position: Software Engineer
+        start_date: 2018-01
+        end_date: 2020-02
+        location: Zdalnie
+        summary: Świadczenie usług programistycznych dla klientów indywidualnych.
+        highlights:
+          - Dostarczyłem kompletny produkt dla trenera personalnego — od identyfikacji wizualnej, przez aplikację webową dla klientów, po marketingowy landing page.
+          - Tworzyłem funkcje frontendowe aplikacji e-commerce z branży odzieżowej, w tym bezpieczną obsługę płatności i zarządzanie subskrypcjami przez Stripe.
+          - "Ulepszyłem sklep internetowy: rozwiązałem problemy z wydajnością ładowania, zaimplementowałem wyszukiwanie i filtrowanie oraz dodałem analitykę produktową."
+          - Rozszerzyłem CMS Strapi o niestandardową logikę, umożliwiając zespołowi marketingu prowadzenie kampanii i zarządzanie dynamiczną treścią sklepu.
+          - Zarządzałem pełnym stosem technologicznym, wdrożeniami i infrastrukturą, współpracując z klientem przy decyzjach produktowych.
+          - "**Technologie:** TypeScript, JavaScript, React, Next.js, Redux, Redux Form, Reselect, Strapi, Fastify, Ramda, Stripe, GitHub Actions"
+
+      - company: "[Allegro](https://allegro.pl)"
+        position: Software Engineer
+        start_date: 2016-01
+        end_date: 2017-12
+        location: Poznań
+        summary: Praca nad domeną sprzedawcy — tworzeniem i wyświetlaniem ofert — w dużej, rozproszonej platformie marketplace; dołączyłem jako Junior Software Engineer po przejściu z QA i awansowałem na Software Engineer.
+        highlights:
+          - Tworzyłem aplikacje frontendowe i usługi backendowe dla procesów tworzenia i wyświetlania ofert.
+          - Pracowałem z rozproszonymi mikroserwisami, w tym z komunikacją asynchroniczną, orkiestracją usług i wdrożeniami z wykorzystaniem Mesos, Marathon i Consul.
+          - Wykorzystywałem doświadczenie z QA dla jakości implementacji poprzez testy i code review; uczestniczyłem w projektowaniu produktu i planowaniu; mentorowałem młodszych inżynierów.
+          - Utrzymywałem i modernizowałem systemy legacy.
+          - "**Technologie:** JavaScript, React, Redux, Node.js, Koa, Express, Java, Kotlin, Spring, PHP, Symfony, Kafka, Consul, Mesos, Marathon, Bamboo"
+
+      - company: "[Allegro](https://allegro.pl)"
+        position: Junior QA Engineer
+        start_date: 2015-01
+        end_date: 2015-12
+        location: Poznań
+
+      - company: "[mTab](https://mtab.com)"
+        position: QA Engineer
+        start_date: 2013-10
+        end_date: 2014-12
+        location: Poznań
+
+    Języki:
+      - label: Polski
+        details: ojczysty
+      - label: Angielski
+        details: zaawansowany
+      - label: Niemiecki
+        details: podstawowy
+
+design:
+  theme: classic
+  page:
+    show_footer: true
+  colors:
+    name: rgb(0, 0, 0)
+    section_titles: rgb(0, 0, 0)
+  typography:
+    font_family: DejaVu Sans Mono
+    font_size:
+      body: 8pt
+    alignment: justified-with-no-hyphenation
+  header:
+    alignment: left
+    connections:
+      phone_number_format: international
+      hyperlink: true
+      show_icons: true
+      display_urls_instead_of_usernames: true
+      space_between_connections: "0.50cm"
+  entries:
+    summary:
+      space_above: "0.15cm"
+    highlights:
+      space_above: "0.15cm"
+  section_titles:
+    type: with_partial_line
+    space_above: "0.5cm"
+    space_below: "0.5cm"
+  links:
+    underline: false
+    show_external_link_icon: true
+  templates:
+    footer: |-
+      Wyrażam zgodę na przetwarzanie moich danych osobowych dla potrzeb niezbędnych do realizacji
+      #linebreak()
+      procesu rekrutacji, zgodnie z Rozporządzeniem Parlamentu Europejskiego i Rady (UE) 2016/679 (RODO).
+
+locale:
+  language: english
+  last_updated: "Ostatnia aktualizacja:"
+  month: "miesiąc"
+  months: "miesięcy"
+  year: "rok"
+  years: "lata"
+  present: "obecnie"
+  month_abbreviations:
+    - sty
+    - lut
+    - mar
+    - kwi
+    - maj
+    - cze
+    - lip
+    - sie
+    - wrz
+    - paź
+    - lis
+    - gru
+  month_names:
+    - styczeń
+    - luty
+    - marzec
+    - kwiecień
+    - maj
+    - czerwiec
+    - lipiec
+    - sierpień
+    - wrzesień
+    - październik
+    - listopad
+    - grudzień

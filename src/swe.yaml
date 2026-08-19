@@ -26,8 +26,8 @@ cv:
         end_date: present
         summary: Sabbatical focused on learning and personal projects.
         highlights:
-          - Built a small e-commerce website with a blog, payment processing, and newsletter integrations to learn PayloadCMS.
-          - "**Technologies:** PayloadCMS, Stripe, Notifuse, Hetzner, GitHub Actions"
+          - Built an e-commerce website with a blog, payment processing, and newsletter integrations to learn PayloadCMS.
+          - "**Technologies:** TypeScript, PayloadCMS, Stripe, Notifuse, Hetzner, GitHub Actions"
 
       - company: "[Enixware](https://enixware.com)"
         position: Senior Frontend Engineer
@@ -36,8 +36,7 @@ cv:
         location: Remote
         summary: Worked on a large-scale web gaming platform serving thousands of concurrent users.
         highlights:
-          - Built game systems and player-facing UI for a Web3 browser game, collaborating with product, game, and blockchain engineers.
-          - Integrated the game with the Web3 and Telegram ecosystem, including wallets and in-app flows.
+          - Built player-facing UI for a Web3 browser game, integrating it with wallets and the Telegram ecosystem.
           - Developed the accompanying marketing landing page.
           - Built an automated styling-migration tool with GritQL, turning a large-scale codebase migration into a repeatable process with edge-case handling.
           - "**Technologies:** TypeScript, React, Astro, React Router, React Query, XState, Phaser, Tailwind, GritQL, GitHub Actions"
